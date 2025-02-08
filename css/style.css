@@ -1,0 +1,232 @@
+.header_logo {
+    font-family: "Great Vibes", serif;
+    font-size: 98px;
+    text-align: left;
+    color: rgb(4, 78, 33);
+}
+
+.header_logo:hover {
+    transform: scale(1.2);
+    transition-duration: 2s
+}
+
+.header__adress {
+    font-size: 22px;
+}
+
+* {
+    font-family: "Lobster", serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.header__location {
+    display: flex;
+    padding: 50px;
+}
+
+.header__location img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.header__logo-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-about-us__message {
+    background-color: rgb(4, 78, 33);
+    width: 700px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.section-about-us__main-info {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-about-us__main-info img {
+    width: 600px;
+    height: 600px;
+}
+
+.section-about-us__we-are-info {
+    font-size: 35px;
+    border-left: white 5px solid;
+    border-right: white 5px solid;
+}
+
+.section-about-us__we-are-info:hover {
+    border-left: white 10px double;
+    border-right: white 10px double;
+
+}
+
+.header__company-slogan {
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 80px;
+
+}
+
+.header__company-slogan p {
+    text-align: left;
+    padding-bottom: 20px;
+    max-width: 900px;
+    font-size: 28px;
+}
+
+.header__company-slogan img {
+    justify-content: flex-end;
+    width: 830px;
+    height: 343px;
+}
+
+.all__slogan {
+    text-align: left;
+}
+
+.slogan {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.slogan:hover {
+    background-color: rgb(4, 78, 33);
+    color: white;
+    border-radius: 5px;
+    transition-duration: 2s;
+}
+
+.section-successes {
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.section-successes__row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
+}
+
+.section-successes__item {
+    font-size: 20px;
+}
+
+.section-successes__item:hover {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    cursor: pointer;
+}
+
+.bold-word {
+    font-size: 25px;
+}
+
+.successes-slogan {
+    font-size: 30px;
+}
+
+.section-examples-of-work_container {
+    background-color: rgb(4, 78, 33);
+    color: white;
+    padding: 5px;
+    margin-top: -5px;
+}
+
+.section-examples-of-work__title--white {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.section-main-examples-of-work {
+    display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.examples-of-work {
+    border: solid 5px white;
+    margin: 50px;
+}
+
+.examples-of-work img {
+    width: 436px;
+    height: 436px;
+}
+
+.collection-notification p {
+    text-align: left;
+    font-size: 50px;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.collection_link {
+    text-decoration: none;
+    color: black;
+}
+
+.collection_link:hover {
+    background-color: palevioletred;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 2s;
+}
+
+.footer__contacts {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid white 1px;
+}
+
+.footer__mail-link {
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.footer__contacts-info {
+    text-align: left;
+}
+
+.footer__contacts-title--white {
+    text-align: left;
+}
+
+.footer__contacts-text {
+    text-align: left;
+}
+
+.footer__write {
+    margin: 0px;
+    padding: 0px;
+    height: 34px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.footer__write-container {
+    margin-top: 45px;
+}
+
+.footer__social-media {
+    padding-top: 5px;
+}
+
+.footer__social-media img {
+    width: 40px;
+    height: 40px;
+}
